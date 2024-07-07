@@ -23,6 +23,12 @@ const DATA = [
     validity: "02-12-2024",
     quantity: ["150", "kg"],
   },
+  {
+    id: "bd7acbea-c1b1-46c4-aed5-3ad53abb28ba",
+    title: "File de frango",
+    validity: "02-11-2024",
+    quantity: ["50", "kg"],
+  },
 ];
 
 export default function List() {
@@ -39,7 +45,7 @@ export default function List() {
             height: "100%",
             justifyContent: "center",
             alignItems: "center",
-            backgroundColor: transparent,
+            // backgroundColor: transparent,
           }}
         >
           <View
@@ -53,8 +59,8 @@ export default function List() {
               borderRadius: 20,
               marginTop: "56%",
 
-              borderWidth: 1,
-              borderColor: "rgba(0, 0, 0, 0.3)",
+              // borderWidth: 1,
+              // borderColor: "rgba(0, 0, 0, 0.3)",
 
               shadowColor: "rgba(0, 0, 0, 0.7)",
               shadowOffset: {
