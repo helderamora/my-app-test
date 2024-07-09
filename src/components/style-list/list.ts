@@ -4,8 +4,8 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     width: "100%",
-    height: "100%",
-    backgroundColor: "#fff",
+    // height: "100%",
+    backgroundColor: "#27271f",
   },
   box: {
     flexDirection: "row",
@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
     marginVertical: 4,
     alignItems: "center",
     justifyContent: "space-between",
-    backgroundColor: "#d4e9f2",
+    backgroundColor: "#3b3b33",
     borderRadius: 8,
 
     shadowColor: "rgba(0, 0, 0, 0.7)",
@@ -34,26 +34,26 @@ export const styles = StyleSheet.create({
   title: {
     fontSize: 16,
     fontWeight: "400",
-    color: "#0A0AAA",
+    color: "#f1f1f1",
   },
   boxsubtitle: {
     flexDirection: "row",
     marginTop: 4,
-    marginLeft: -4,
+    marginLeft: -2,
     justifyContent: "flex-start",
     gap: 100,
   },
   subtitle: {
     fontSize: 10,
     fontWeight: "500",
-    backgroundColor: "#d4d6f2",
+    color: "#f1f1f1",
     borderRadius: 8,
     paddingHorizontal: 4,
   },
   value: {
     fontSize: 10,
     fontWeight: "500",
-    color: "#0A0AAA",
+    color: "#e0dede",
     marginHorizontal: -20,
   },
   boxvalue: {
@@ -61,7 +61,7 @@ export const styles = StyleSheet.create({
     padding: 8,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#0A0AAA",
+    backgroundColor: "#ddeb99",
     borderRadius: 20,
     marginRight: 12,
   },

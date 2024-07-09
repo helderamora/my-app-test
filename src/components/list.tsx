@@ -42,7 +42,6 @@ export default function List() {
           style={{
             flex: 1,
             width: "100%",
-            height: "100%",
             justifyContent: "center",
             alignItems: "center",
             // backgroundColor: transparent,
@@ -50,41 +49,31 @@ export default function List() {
         >
           <View
             style={{
-              flexDirection: "row-reverse",
-              gap: 120,
+              flex: 0.3,
               alignItems: "flex-start",
-              backgroundColor: "#f5f5f5",
-              width: "100%",
-              height: "76%",
+              backgroundColor: "#ddeb99",
+              width: "85%",
+              padding: 10,
               borderRadius: 20,
-              marginTop: "56%",
+              // marginTop: "56%",
 
-              // borderWidth: 1,
-              // borderColor: "rgba(0, 0, 0, 0.3)",
+              borderWidth: 1,
+              borderColor: "#3b3b33",
 
-              shadowColor: "rgba(0, 0, 0, 0.7)",
+              shadowColor: "rgba(0, 0, 0, 0.2)",
               shadowOffset: {
                 width: 8,
                 height: 16,
               },
-              elevation: 12,
+              elevation: 6,
               shadowOpacity: 0.28,
               shadowRadius: 4,
             }}
           >
             <TouchableOpacity onPress={() => setModalVisible(false)}>
-              <Text
-                style={{
-                  color: "#000",
-                  width: "100%",
-                  marginRight: 8,
-                  marginTop: 8,
-                }}
-              >
-                <AntDesign name="closecircle" size={24} color={"#0A0AAA"} />
-              </Text>
+              <AntDesign name="closecircle" size={24} color={"tomato"} />
             </TouchableOpacity>
-            <Text>Modal</Text>
+            {/* <Text>Modal</Text> */}
           </View>
         </View>
       </Modal>
@@ -113,7 +102,7 @@ export default function List() {
 
             <TouchableOpacity onPress={() => setModalVisible(true)}>
               <View style={styles.boxvalue}>
-                <AntDesign name="edit" size={20} color={"#fff9"} />
+                <AntDesign name="edit" size={20} color={"#27271f"} />
               </View>
             </TouchableOpacity>
             {renderModal()}

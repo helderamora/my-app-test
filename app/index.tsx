@@ -10,7 +10,7 @@ import { View, StyleSheet, StatusBar } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <StatusBar barStyle="dark-content" backgroundColor={"#F8F7F2"} />
+      <StatusBar barStyle="light-content" backgroundColor={"#27271f"} />
       <Home />
     </View>
   );
@@ -19,7 +19,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    width: "100%",
+    height: "100%",
     alignItems: "center",
-    marginTop: 70,
+    backgroundColor: "#27271f",
   },
 });
